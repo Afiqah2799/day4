@@ -52,7 +52,7 @@ st.write('')
 number = st.number_input("Insert a number", \
                          value=None, placeholder="Type a number...")
 
-st.write("The current number is ", f'{number:.4f}')
+st.write("The current number is ", number)
 st.write('')
 
 ###Insert graphics

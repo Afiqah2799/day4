@@ -65,7 +65,7 @@ st.write('')
 ###Dataframe
 st.write('**Dataframe**')
 import pandas as pd
-df = pd.read_excel('sampleData.xlsx')
+df = pd.read_excel('sampledata.xlsx')
 st.dataframe(df.tail(3))
  ###Bar Chart
 st.bar_chart(df, x="Location", y="Income")
